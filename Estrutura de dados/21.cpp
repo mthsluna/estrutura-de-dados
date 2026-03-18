@@ -8,7 +8,7 @@ int main(){
 	minhaLista.push_back(1);
 	minhaLista.push_back(2);
 	minhaLista.push_back(3);
-	minhaLista.push_back(0);
+	minhaLista.push_front(0);
 	
 	cout << "Lista: ";
 	for (auto elemento : minhaLista) {
