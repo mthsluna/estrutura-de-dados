@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a[5]; 
+	int i;
+	
+	
+	for (int i = 0; i < 5; i++){
+		cout << "Informe um valor: ";
+		cin >> a[i];
+	}
+	
+	cout << "Valores informados: ";
+	for (int i = 0; i < 5; i++) {
+		cout << a[i] << " ";
+	}
+	
+	return 0;	
+}
+
